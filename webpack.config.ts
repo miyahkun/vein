@@ -1,5 +1,5 @@
-import { Configuration } from 'webpack'
-import * as path from 'path'
+import { Configuration } from 'webpack';
+import * as path from 'path';
 
 const config: Configuration = {
   mode: 'development',
@@ -16,7 +16,10 @@ const config: Configuration = {
         use: 'ts-loader'
       }
     ]
+  },
+  resolve: {
+    extensions: ['.ts', '.js']
   }
-}
+};
 
-export default config
+export default config;
