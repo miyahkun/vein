@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": [
+      "DOM",
+      "ESNext",
+      "ESNext.AsyncIterable"
+    ],
+    "module": "esnext",
+    // "rootDir": "./",
+    // "baseUrl": "./",
+    // "paths": {},
+    // "typeRoots": [],
+    "types": [
+      "node",
+      "webpack"
+    ],
+    // "allowJs": true,
+    "sourceMap": true,
+    // "outFile": "./",
+    // "outDir": "./",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
